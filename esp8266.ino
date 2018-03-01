@@ -6,16 +6,16 @@
 #include <Servo.h> //include servo library
 
 //---WiFi Settings---
-char ssid[] = "dlink-88E4";
-char password[] = "Jancukmatamu";
+char ssid[] = "";
+char password[] = "";
 
 //---IFTTT Webhooks Config---
-#define KEY "dA9aqoJVydYI8CmXFkumZ5"
+#define KEY ""
 #define EVENT_NAME "gate_opened"
 
 //---Telegram Config---
-#define BOT_Token "529761765:AAE9aS1d1o4XB5U6nJ1Av1a1XMhg_7RuBp0"
-#define CHAT_ID "515524780"
+#define BOT_Token ""
+#define CHAT_ID ""
 
 //--- SSL Client needed for both libraries
 WiFiClientSecure client;
